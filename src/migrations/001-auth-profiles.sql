@@ -73,3 +73,5 @@ DROP CONSTRAINT IF EXISTS submissions_respondent_id_fkey;
 ALTER TABLE public.submissions
 ADD CONSTRAINT submissions_respondent_id_fkey 
 FOREIGN KEY (respondent_id) REFERENCES public.users(id) ON DELETE SET NULL;
+
+ALTER TABLE public.users ADD CONSTRAINT users_name_key UNIQUE (name);
