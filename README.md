@@ -15,7 +15,7 @@ Aplikasi **Form Builder** fullstack yang memungkinkan pengguna membuat formulir,
 
 ## 🛠️ Tech Stack
 
-* **Framework**: Next.js 15 (App Router)
+* **Framework**: Next.js 16 (App Router)
 * **Language**: TypeScript
 * **Database**: Supabase (PostgreSQL)
 * **Styling**: Tailwind CSS, Shadcn UI
@@ -52,8 +52,8 @@ Ikuti langkah-langkah berikut untuk menjalankan aplikasi di lokal:
 
 ### 1. Clone Repository
 ```bash
-git clone [https://github.com/username/repo-name.git](https://github.com/username/repo-name.git)
-cd repo-name
+git clone https://github.com/DerNiks/oprec-ristek.git
+cd oprec-ristek
 npm install
 ```
 
@@ -67,8 +67,6 @@ npm run dev
 Buka http://localhost:3000 di browser Anda.
 
 ### 4. Dokumentasi API
-Aplikasi ini menyediakan dokumentasi API interaktif untuk pengujian endpoint backend.
 Pastikan server berjalan.
 Buka URL: http://localhost:3000/api-doc
-Anda bisa mencoba endpoint Auth, Forms, dan Submissions langsung dari halaman tersebut.
 
