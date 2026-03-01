@@ -54,7 +54,7 @@ Ikuti langkah-langkah berikut untuk menjalankan aplikasi di lokal:
 ```bash
 git clone https://github.com/DerNiks/oprec-ristek.git
 cd oprec-ristek
-npm install
+npm install --legacy-peer-deps
 ```
 
 ### 2. ENV
